@@ -1,0 +1,47 @@
+/*
+X smaLL            <   576px
+SmaLL                   sm   576px
+
+Medium          768px
+Large           992px
+Extra Large                 1200px
+Extra Extra Large           1400px
+*/
+
+/*
+
+ X smaLL            <   100%
+ X SmaLL                   sm   540px
+
+Medium          720px
+Large           960px
+Extra Large                 1140px
+Extra Extra Large           1320px
+*/
+
+
+html,body{
+    height: 100%;
+}
+body{
+    background: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-login{
+    background: rgba(236,240,241,.35);
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    color: #fff;
+    max-width: 450px;
+    width: 100%;
+}
+.btn-primary{
+    background: #f1c40f;
+    border: 0;
+}
+.btn-primary:hover{
+    background: #d35400;
+}
